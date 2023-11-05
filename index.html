@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Position</title>
+    <style>
+      .parent {
+        border: 2px solid red;
+        width: 500px;
+        margin: 0 auto;
+        height: 2000px;
+        /* position: relative; */
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+      }
+
+      .ungu {
+        background-color: purple;
+      }
+      .hijau {
+        background-color: lightgreen;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+      }
+      .kuning {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="box ungu"></div>
+      <div class="box hijau"></div>
+      <div class="box kuning"></div>
+    </div>
+  </body>
+</html>
